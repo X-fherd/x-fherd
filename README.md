@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/x-fherd">
-    <img src="./assets/profile-hero.svg" width="100%" alt="x-fherd — self-directed Python developer" />
+    <img src="./assets/profile-hero.svg?v=2" width="100%" alt="x-fherd — self-directed Python developer" />
   </a>
 </div>
 
