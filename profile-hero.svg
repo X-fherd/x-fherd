@@ -1,0 +1,80 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">x-fherd — self-directed Python developer</title>
+  <desc id="desc">A dark minimal systems composition representing a path from a question through building and learning.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="53" y1="24" x2="1135" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111916"/>
+      <stop offset="1" stop-color="#070B0A"/>
+    </linearGradient>
+    <radialGradient id="signal" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(954 187) rotate(180) scale(337 292)">
+      <stop stop-color="#74E6A7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#74E6A7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="61" y1="0" x2="507" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7F3C8"/>
+      <stop offset="1" stop-color="#5ED897"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#DDF8E7" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="388" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="390" fill="url(#surface)"/>
+    <rect width="1200" height="390" fill="url(#grid)"/>
+    <rect width="1200" height="390" fill="url(#signal)"/>
+
+    <g opacity="0.58">
+      <path d="M736 -42C783 1 741 49 788 89C833 127 913 102 937 151C960 199 889 235 929 276C969 318 1038 283 1084 324C1124 360 1098 420 1147 443" stroke="#79E8AA" stroke-opacity="0.38" stroke-width="1.2"/>
+      <path d="M786 -54C835 -3 790 44 834 76C879 109 946 86 980 134C1014 182 945 229 981 266C1020 307 1095 275 1137 316C1172 350 1151 402 1196 431" stroke="#79E8AA" stroke-opacity="0.29"/>
+      <path d="M689 -29C729 15 695 62 739 104C780 143 860 117 886 164C912 211 846 252 882 294C918 337 981 307 1029 347C1075 385 1043 431 1090 456" stroke="#79E8AA" stroke-opacity="0.26"/>
+      <path d="M651 2C691 44 655 86 700 127C745 168 812 140 839 184C868 233 809 273 843 316C877 359 932 337 981 375C1024 408 1007 440 1040 464" stroke="#79E8AA" stroke-opacity="0.20"/>
+      <path d="M840 -67C886 -15 845 27 883 59C924 94 993 70 1028 113C1068 162 998 211 1030 249C1065 292 1142 257 1184 300C1217 335 1204 377 1238 405" stroke="#79E8AA" stroke-opacity="0.18"/>
+      <path d="M909 -77C948 -25 911 12 949 48C986 83 1055 52 1096 98C1137 145 1071 191 1102 230C1139 275 1208 242 1254 280" stroke="#79E8AA" stroke-opacity="0.13"/>
+    </g>
+
+    <g opacity="0.68">
+      <circle cx="951" cy="193" r="116" stroke="#91EDB8" stroke-opacity="0.12"/>
+      <circle cx="951" cy="193" r="79" stroke="#91EDB8" stroke-opacity="0.17"/>
+      <circle cx="951" cy="193" r="42" stroke="#91EDB8" stroke-opacity="0.24"/>
+      <path d="M951 58V328M816 193H1086" stroke="#91EDB8" stroke-opacity="0.10"/>
+      <circle cx="951" cy="193" r="5" fill="#A7F3C8"/>
+      <circle cx="951" cy="193" r="12" fill="#78E4A7" fill-opacity="0.16" filter="url(#glow)"/>
+    </g>
+
+    <rect x="61" y="55" width="8" height="8" rx="2" fill="#8DEBB4"/>
+    <text x="85" y="64" fill="#8DEBB4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="2.6">X-FHERD / SELF-DIRECTED</text>
+
+    <text x="61" y="172" fill="#F4F8F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="8">X-FHERD</text>
+    <rect x="61" y="194" width="385" height="2" rx="1" fill="url(#accent)"/>
+    <text x="61" y="238" fill="#A6B5AD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2.2">PYTHON · BACKEND APIS · AUTOMATION · SECURITY</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">
+      <text x="61" y="326" fill="#607068">QUESTION</text>
+      <path d="M121 322H184" stroke="#53645B"/>
+      <path d="M178 318L184 322L178 326" stroke="#53645B"/>
+      <text x="199" y="326" fill="#607068">MODEL</text>
+      <path d="M252 322H315" stroke="#53645B"/>
+      <path d="M309 318L315 322L309 326" stroke="#53645B"/>
+      <text x="330" y="326" fill="#607068">BUILD</text>
+      <path d="M397 322H460" stroke="#53645B"/>
+      <path d="M454 318L460 322L454 326" stroke="#53645B"/>
+      <text x="475" y="326" fill="#8DEBB4">LEARN</text>
+    </g>
+
+    <g fill="#718078" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2">
+      <text x="1084" y="64">BUILD / LEARN</text>
+      <text x="1084" y="80">SHIP / REFINE</text>
+      <text x="1084" y="326">GH / PROFILE</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="388" rx="24" stroke="#9FEEC0" stroke-opacity="0.15" stroke-width="2"/>
+</svg>
